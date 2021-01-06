@@ -1,0 +1,262 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 2247px;
+  width: 1448px;
+  font-family: Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  height: 2084px;
+  overflow: hidden;
+  margin-left: 244px;
+  width: 935px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  padding-bottom: 10px;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 36px;
+}
+header > img:first-child {
+  margin-right: 257px;
+  margin-left: 243px;
+}
+
+input {
+  height: 29px;
+  width: 215px;
+  left: 604px;
+  top: 12px;
+  border-radius: 3px;
+  background: url(search.png) no-repeat center left 10px;
+  padding-left: 28px;
+  margin-right: 163px;
+  margin-left: 0;
+  border: 1px solid #dbdbdb;
+}
+header > a {
+  margin-right: 22px;
+  margin-left: 0;
+}
+
+header > div {
+  margin-left: 0;
+  margin-right: 22px;
+  display: flex;
+  align-items: flex-end;
+  height: 28px;
+}
+header > div > p {
+  margin-left: 12px;
+  align-self: start;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background-color: #dc565b;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
+}
+header > div > img {
+  width: 21.55px;
+  height: 18.82px;
+}
+
+.mainimg {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+article {
+  width: 527px;
+}
+article div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.one img,
+.two img {
+  border-radius: 50%;
+}
+.one {
+  margin-left: 69px;
+}
+.one img {
+  width: 152px;
+  height: 152px;
+  margin-left: 0;
+}
+.posts {
+  margin-top: 21px;
+}
+.name {
+  margin-left: 0;
+  margin-right: 26px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+}
+.follow {
+  margin-left: 0;
+  margin-right: 8px;
+  width: 96px;
+  height: 28px;
+  background: #4094ef;
+  border-radius: 3px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+.arrow {
+  width: 33px;
+  height: 28px;
+  background: #4094ef;
+  border-radius: 3px;
+  margin-left: 0px;
+  margin-right: 16px;
+  border: none;
+}
+.arrow img {
+  width: 7.79px;
+  height: 4.5px;
+}
+.dots {
+  margin-left: 0px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  text-align: center;
+
+  height: 28px;
+  padding-bottom: 14px;
+}
+.posts p {
+  margin-left: 0px;
+  margin-right: 35px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 21px;
+}
+span {
+  font-weight: 600;
+}
+.posts + p {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 21px;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+}
+a {
+  text-decoration: none;
+  color: #133768;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.two {
+  margin-top: 56px;
+  margin-left: 47px;
+  margin-bottom: 55px;
+}
+figure {
+  margin-left: 0;
+  margin-right: 55px;
+}
+figcaption {
+  margin-top: 15px;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.three {
+  display: flex;
+  width: 935px;
+  border-top: 1px solid #dbdbdb;
+  justify-content: center;
+  height: 52px;
+}
+.three img {
+  margin-left: 0;
+  margin-right: 0;
+  width: 11.25px;
+  height: 11.25px;
+}
+.three > div {
+  display: flex;
+  align-items: center;
+}
+.three > div:first-child {
+  border-top: 1px solid rgba(38, 38, 38, 1);
+  margin-left: 369px;
+  margin-right: 61px;
+}
+.three > div:last-child {
+  margin-left: 0;
+}
+.three > div > p {
+  font-style: normal;
+  font-weight: 780;
+  font-size: 12px;
+  line-height: 52px;
+  margin-left: 6.75px;
+}
+.three div + div > p {
+  margin-right: 0px;
+  color: #8f8f8f;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+.last img {
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
+}
